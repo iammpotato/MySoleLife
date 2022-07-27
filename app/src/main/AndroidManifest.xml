@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mysolelife">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MySoleLife"
+        tools:targetApi="31">
+        <activity
+            android:name=".ContentShowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContentsListActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".ContentsListActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".ContentsListActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".ContentsListActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".ContentsActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".ContentsListActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".ContentsListActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".ContentsListActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".contentsList.ContentsListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fragments.TipFragment"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
